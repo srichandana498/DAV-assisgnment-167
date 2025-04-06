@@ -14,10 +14,15 @@ Technologies & Libraries Used
 
 
 Python: Core language used for data analysis.
+
 Pandas: Data manipulation and cleaning.
+
 NumPy: Numerical operations and efficiency improvements.
+
 Matplotlib & Seaborn: Data visualization and storytelling through charts.
+
 Google Colab: Development environment for running and documenting the code interactively.
+
 
 
 
