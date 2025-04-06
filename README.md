@@ -8,6 +8,8 @@ This project emphasizes data storytelling, visual exploration, and basic data wr
 In a world where streaming is king, Netflix sits right at the throne. This project explores the Netflix Movies and TV Shows dataset (thanks, Kaggle!) to understand what kind of content fills up our watchlists — from trending genres to countries producing the most binge-worthy shows.
 The dataset includes info like title, type (movie or TV show), cast, director, country, release year, genre, duration, and more. The idea was to break it down, clean it up, and see what insights we can uncover about Netflix’s content evolution over time.
 
+
+
 Technologies & Libraries Used
 
 
@@ -24,6 +26,7 @@ Google Colab: Development environment for running and documenting the code inter
 
 
 Key Findings
+
 
 
 Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
