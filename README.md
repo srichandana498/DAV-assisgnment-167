@@ -1,6 +1,7 @@
-Netflix Movies and TV Shows Analysis  
+## Netflix Movies and TV Shows Analysis  
 
-Overview
+
+# Overview
 
 This project focuses on exploring and analyzing the Netflix Movies and TV Shows dataset to uncover trends, patterns, and insights about Netflix's content library.
 Sourced from Kaggle, the dataset contains key details like title, type (Movie or TV Show), release year, genre, cast, country, duration, and more. The main goal was to dig into this data to better understand Netflix’s content strategy — what's being produced, when, where, and who’s behind it.
@@ -10,7 +11,7 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 
 
 
-Technologies & Libraries Used
+## Technologies & Libraries Used
 
 
 -} Python: Core language used for data analysis.
@@ -27,9 +28,9 @@ Technologies & Libraries Used
 
 
 
-Approach
+## Approach
 
-Data Preparation
+# Data Preparation
 
 -} The dataset was imported using Pandas and initially examined using .info() and .isnull() to understand its structure and identify missing values.
 
@@ -42,7 +43,7 @@ Data Preparation
 
 
 
-Exploratory Analysis
+# Exploratory Analysis
 
 
 -} Content Type Breakdown: Visualized the overall distribution between Movies and TV Shows.
@@ -59,7 +60,7 @@ Exploratory Analysis
 
 
 
-Key Findings
+## Key Findings
 
 
 -} Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
@@ -75,7 +76,7 @@ Key Findings
 
 
 
-Conclusion
+## Conclusion
 
 
 
