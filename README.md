@@ -14,13 +14,9 @@ Technologies & Libraries Used
 
 
 Python: Core language used for data analysis.
-
 Pandas: Data manipulation and cleaning.
-
 NumPy: Numerical operations and efficiency improvements.
-
 Matplotlib & Seaborn: Data visualization and storytelling through charts.
-
 Google Colab: Development environment for running and documenting the code interactively.
 
 
@@ -28,16 +24,14 @@ Google Colab: Development environment for running and documenting the code inter
 Key Findings
 
 
-
 Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
-
 Dramas and comedies emerged as the most dominant genres.
-
 United States and India are the leading countries in terms of content production.
-
 Most movies range between 90–120 minutes, while TV shows often consist of a single season.
-
 Certain directors and actors appear frequently, indicating recurring collaborations or partnerships.
+
+
+
 
 
 
