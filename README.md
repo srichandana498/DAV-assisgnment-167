@@ -21,6 +21,29 @@ Google Colab: Development environment for running and documenting the code inter
 
 
 
+
+Approach
+Data Preparation
+The dataset was imported using Pandas and initially examined using .info() and .isnull() to understand its structure and identify missing values.
+Missing entries in the director, cast, and country columns were filled with "Unknown" to maintain data consistency.
+The date_added column was converted to datetime format, and new columns (year_added and month_added) were extracted to enable time-based trend analysis.
+No significant outliers or duplicates were found, ensuring a clean dataset ready for analysis.
+
+
+
+Exploratory Analysis
+
+
+
+Content Type Breakdown: Visualized the overall distribution between Movies and TV Shows
+Top Countries: Highlighted the countries contributing the most content to Netflix.
+Genre Distribution: Identified the most frequent categories by analyzing the listed_in column.
+Release Year Trends: Explored how content additions have evolved over the years.
+Monthly Additions: Studied seasonal trends by observing content added month-wise.
+Ratings Overview: Analyzed how different content types are distributed across ratings like TV-MA, PG, and others.
+
+
+
 Key Findings
 
 
@@ -33,5 +56,10 @@ Certain directors and actors appear frequently, indicating recurring collaborati
 
 
 
+Conclusion
+
+
+
+The project effectively demonstrates how structured data analysis can provide insights into media consumption patterns and platform strategies. Through comprehensive EDA and visualization, we gained clarity on Netflix’s global offerings and content evolution. This analysis can be extended by integrating user reviews, regional preferences, or predictive models for content success. Future work may involve building dashboards, filtering by user demographics, or recommending content using machine learning models.
 
 
