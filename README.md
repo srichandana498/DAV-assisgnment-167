@@ -1,17 +1,17 @@
-## Netflix Movies and TV Shows Analysis  
+# Netflix Movies and TV Shows Analysis  
 
 
-# Overview
+## Overview
 
 This project focuses on exploring and analyzing the Netflix Movies and TV Shows dataset to uncover trends, patterns, and insights about Netflix's content library.
 Sourced from Kaggle, the dataset contains key details like title, type (Movie or TV Show), release year, genre, cast, country, duration, and more. The main goal was to dig into this data to better understand Netflix’s content strategy — what's being produced, when, where, and who’s behind it.
 This project emphasizes data storytelling, visual exploration, and basic data wrangling, making it perfect for beginner to intermediate data analysts and enthusiasts.
-In a world where streaming is king, Netflix sits right at the throne. This project explores the Netflix Movies and TV Shows dataset (thanks, Kaggle!) to understand what kind of content fills up our watchlists — from trending genres to countries producing the most binge-worthy shows.
+In a world where streaming is king, Netflix sits right at the throne. This project explores the Netflix Movies and TV Shows dataset to understand what kind of content fills up our watchlists — from trending genres to countries producing the most binge-worthy shows.
 The dataset includes info like title, type (movie or TV show), cast, director, country, release year, genre, duration, and more. The idea was to break it down, clean it up, and see what insights we can uncover about Netflix’s content evolution over time.
 
 
 
-## Technologies & Libraries Used
+# Technologies & Libraries Used
 
 
 -} Python: Core language used for data analysis.
@@ -28,9 +28,9 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 
 
 
-## Approach
+# Approach
 
-# Data Preparation
+## Data Preparation
 
 -} The dataset was imported using Pandas and initially examined using .info() and .isnull() to understand its structure and identify missing values.
 
@@ -43,7 +43,7 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 
 
 
-# Exploratory Analysis
+## Exploratory Analysis
 
 
 -} Content Type Breakdown: Visualized the overall distribution between Movies and TV Shows.
@@ -60,7 +60,7 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 
 
 
-## Key Findings
+# Key Findings
 
 
 -} Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
@@ -76,7 +76,7 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 
 
 
-## Conclusion
+# Conclusion
 
 
 
