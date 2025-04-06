@@ -13,50 +13,64 @@ The dataset includes info like title, type (movie or TV show), cast, director, c
 Technologies & Libraries Used
 
 
-Python: Core language used for data analysis.
+-} Python: Core language used for data analysis.
 
-Pandas: Data manipulation and cleaning.
+-} Pandas: Data manipulation and cleaning.
 
-NumPy: Numerical operations and efficiency improvements.
+-} NumPy: Numerical operations and efficiency improvements.
 
-Matplotlib & Seaborn: Data visualization and storytelling through charts.
+-} Matplotlib & Seaborn: Data visualization and storytelling through charts.
 
-Google Colab: Development environment for running and documenting the code interactively.
+-} Google Colab: Development environment for running and documenting the code interactively.
 
 
 
 
 
 Approach
+
 Data Preparation
-The dataset was imported using Pandas and initially examined using .info() and .isnull() to understand its structure and identify missing values.
-Missing entries in the director, cast, and country columns were filled with "Unknown" to maintain data consistency.
-The date_added column was converted to datetime format, and new columns (year_added and month_added) were extracted to enable time-based trend analysis.
-No significant outliers or duplicates were found, ensuring a clean dataset ready for analysis.
+
+-} The dataset was imported using Pandas and initially examined using .info() and .isnull() to understand its structure and identify missing values.
+
+-} Missing entries in the director, cast, and country columns were filled with "Unknown" to maintain data consistency.
+
+-} The date_added column was converted to datetime format, and new columns (year_added and month_added) were extracted to enable time-based trend analysis.
+
+-} No significant outliers or duplicates were found, ensuring a clean dataset ready for analysis.
+
 
 
 
 Exploratory Analysis
 
 
+-} Content Type Breakdown: Visualized the overall distribution between Movies and TV Shows.
 
-Content Type Breakdown: Visualized the overall distribution between Movies and TV Shows
-Top Countries: Highlighted the countries contributing the most content to Netflix.
-Genre Distribution: Identified the most frequent categories by analyzing the listed_in column.
-Release Year Trends: Explored how content additions have evolved over the years.
-Monthly Additions: Studied seasonal trends by observing content added month-wise.
-Ratings Overview: Analyzed how different content types are distributed across ratings like TV-MA, PG, and others.
+-} Top Countries: Highlighted the countries contributing the most content to Netflix.
+
+-} Genre Distribution: Identified the most frequent categories by analyzing the listed_in column.
+
+-} Release Year Trends: Explored how content additions have evolved over the years. 
+
+-} Monthly Additions: Studied seasonal trends by observing content added month-wise.
+
+-} Ratings Overview: Analyzed how different content types are distributed across ratings like TV-MA, PG, and others.
 
 
 
 Key Findings
 
 
-Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
-Dramas and comedies emerged as the most dominant genres.
-United States and India are the leading countries in terms of content production.
-Most movies range between 90–120 minutes, while TV shows often consist of a single season.
-Certain directors and actors appear frequently, indicating recurring collaborations or partnerships.
+-} Significant growth in content releases, especially post-2015, indicating Netflix’s investment in original programming.
+
+-} Dramas and comedies emerged as the most dominant genres.
+
+-} United States and India are the leading countries in terms of content production.
+
+-} Most movies range between 90–120 minutes, while TV shows often consist of a single season.
+
+-} Certain directors and actors appear frequently, indicating recurring collaborations or partnerships.
 
 
 
